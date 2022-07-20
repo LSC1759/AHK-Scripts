@@ -14,3 +14,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 !p::MsgBox, hello world! you pressed alt p, epic
 
 +k::ToolTip, the tooltip forever
+
+F20::MsgBox, WORKS!
